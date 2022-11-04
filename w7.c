@@ -10,7 +10,6 @@ int main(){
 //     int n, m;
 //     m = 5;
 //     n = 3;
-//     // (m > n ? m : n) = -1;
-//     // c++ usage
+//     (m > n ? m : n) = -1;
 //     printf("%d %d", m, n);
 // }
