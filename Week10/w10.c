@@ -11,7 +11,6 @@ int main(){
     printf("%d",res);
     return 0;
 }
-
 // Program 2
 #include <stdio.h>
 int main(){
@@ -24,7 +23,6 @@ int main(){
     printf("%d",sum);
     return 0;
 }
-
 // Program 3
 #include <stdio.h>
 int main(){
