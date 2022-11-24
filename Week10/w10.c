@@ -1,6 +1,6 @@
 // Program 1
 #include <stdio.h>
-int main2(){
+int main(){
     int m =-1,n=-2,res=m;
     if (m<n){
         res=n;
