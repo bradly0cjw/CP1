@@ -27,13 +27,16 @@ int main(){
 int main(){
     int a[10]={3,5,7,9},res1=0;
     for(int i=0;i<10;i++){
+        res1=0;
         for (int m=2;m<a[i];m++){
             if(a[i]%m==0)
                 res1=1;
+                break;
         }
-        if (res1==0)
+        if (res1==0){
             printf("True");
             return 0;
+        }
     }
     printf("False");
     return 0;
