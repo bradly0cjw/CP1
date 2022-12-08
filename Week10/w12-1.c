@@ -1,7 +1,7 @@
-//Program 1
+//Program 6
 #include <stdio.h>
 
-int calcsum(int arr[],int size){
+int calcsum(int*arr,int size){
     int sum=0;
     for(int i=0;i<size;i++){
         sum=sum+arr[i];
@@ -13,10 +13,10 @@ int main(){
     printf("%d",calcsum(a,sizeof(a)/sizeof(a[0])));
     return 0;
 }
-//Program 2
+//Program 7
 #include <stdio.h>
 
-int ckPN(int arr[],int size){
+int ckPN(int*arr,int size){
     int stats=0;
     for(int i=0;i<size;i++){
         if (PN(arr[i])==1){
@@ -49,10 +49,10 @@ int main(){
     
     return 0;
 }
-//Program 3
+//Program 8
 #include <stdio.h>
 
-int check(int arr[],int size){
+int check(int*arr,int size){
     int stats=0,calc=arr[0];
     for(int i=1;i<size;i++){
         if(calc>=arr[i]){
@@ -74,7 +74,7 @@ int main(){
     }
     return 0;
 }
-//Program 4
+//Program 9
 #include <stdio.h>
 int PN(a){
     int res=0;
@@ -98,7 +98,7 @@ int main(){
     }
     return 0;
 }
-//Program 5
+//Program 10
 #include <stdio.h>
 int PN(a){
     int res=0;
