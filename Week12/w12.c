@@ -56,7 +56,7 @@ int main(){
     printf("%d",abssc(a));
     return 0;
 }
-//Program5
+//Program 5
 #include <stdio.h>
 int PN(a){
     int res=0;
