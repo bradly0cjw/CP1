@@ -3,7 +3,7 @@
 int main(){
     int a[10]={3,5,7,9},sum=0;
     for(int i=0;i<10;i++){
-        if(a[i]%2==1)
+        if(a[i]%2!=0)
             sum=sum+a[i];
     }
     printf("%d",sum);
