@@ -25,14 +25,14 @@ int ckPN(int*arr,int size){
     }
     return stats;
 }
-int PN(a){
+int PN(int a){
     int res=0;
-    for(int i=2;i<a;i++){
+    for(int i=1;i<a+1;i++){
         if (a%i==0){
-            res=1;
+            res=res+1;
         }
     }
-    if(res==0){
+    if(res==2){
         return 0;
     }else{
         return 1;
@@ -55,7 +55,7 @@ int main(){
 int check(int*arr,int size){
     int stats=0,calc=arr[0];
     for(int i=1;i<size;i++){
-        if(calc>=arr[i]){
+        if(calc>arr[i]){
             calc=arr[i];
         }else{
             stats=1;
@@ -65,7 +65,7 @@ int check(int*arr,int size){
     return stats;
 }
 int main(){
-    int a[10]={5,4,3,2,1},b;
+    int a[10]={5,4,3,2,1,0,-1,-2,-3,-4},b;
     b=check(a,sizeof(a)/sizeof(a[0]));
     if (b==0){
         printf("True");
@@ -76,14 +76,14 @@ int main(){
 }
 //Program 9
 #include <stdio.h>
-int PN(a){
+int PN(int a){
     int res=0;
-    for(int i=2;i<a;i++){
+    for(int i=1;i<a+1;i++){
         if (a%i==0){
-            res=1;
+            res=res+1;
         }
     }
-    if(res==0){
+    if(res==2){
         return 0;
     }else{
         return 1;
@@ -100,14 +100,14 @@ int main(){
 }
 //Program 10
 #include <stdio.h>
-int PN(a){
+int PN(int a){
     int res=0;
-    for(int i=2;i<a;i++){
+    for(int i=1;i<a+1;i++){
         if (a%i==0){
-            res=1;
+            res=res+1;
         }
     }
-    if(res==0){
+    if(res==2){
         return 0;
     }else{
         return 1;

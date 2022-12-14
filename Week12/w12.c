@@ -58,19 +58,18 @@ int main(){
 }
 //Program 5
 #include <stdio.h>
-int PN(a){
+int PN(int a){
     int res=0;
-    for(int i=2;i<a;i++){
+    for(int i=1;i<a+1;i++){
         if (a%i==0){
-            res=1;
+            res=res+1;
         }
     }
-    if(res==0){
+    if(res==2){
         return 0;
     }else{
         return 1;
     }
-    
 }
 int main(){
     int a,b;
