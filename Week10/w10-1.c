@@ -1,16 +1,15 @@
-// Program 1
 #include <stdio.h>
 int main(){
-    int m =-1,n=-2,res;
+    int m =-1,n=-2,mtemp=m,ntemp=n,res;
     if (m<0){
         m=m*-1;
     }
     if (n<0){
         n=n*-1;
     }
-    res=m;
+    res=mtemp;
     if (m<n){
-        res=n;
+        res=ntemp;
     }
     printf("%d",res);
     return 0;
