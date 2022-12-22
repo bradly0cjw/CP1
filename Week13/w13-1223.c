@@ -134,7 +134,7 @@ int ld(int num){
         }
         return 0;
     }
-    return ld(num);
+    return ld(num/10);
 }
 
 
