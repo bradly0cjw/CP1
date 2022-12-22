@@ -46,12 +46,12 @@ int main(){
  //   // }
 int dig(int num){
     int res=0;
+    if(num<10){
+        res=1;
+    }
     while(num>=10){
         res+=1;
         num=num/10;
-    }
-    if(num<10){
-        res=1;
     }
     return res;
 }
