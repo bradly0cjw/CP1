@@ -70,6 +70,7 @@ int main(){
 }
 int rema(int m,int n){
     if(n==0){
+        printf("can not divide by zero\n");
         return 0;
     }
     if (m<n){
@@ -87,6 +88,7 @@ int main(){
 }
 int quot(int m,int n){
     if(n==0){
+        printf("can not divide by zero\n");
         return 0;
     }
     if (m<n){
