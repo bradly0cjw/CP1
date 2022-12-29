@@ -8,7 +8,7 @@ int main(){
     else if (m<n)
         n=-1;
     else
-        print("NMSL");
+        printf("NMSL");
     printf("%d %d", m, n);   
 }
 
@@ -16,6 +16,6 @@ int main(){
 int main2(){
     int m=-1;
     if ((m<0)&&((m%5)==0))
-        print("hit");
+        printf("hit");
     return 0; 
 }
