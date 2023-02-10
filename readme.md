@@ -1,2 +1,2 @@
 # Computer Programming 1
-## Freshman Fall Semaster 
+## Freshman Fall Semester 2023
